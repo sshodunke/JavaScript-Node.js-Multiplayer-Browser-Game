@@ -12,10 +12,3 @@ You can then run your server with the following command:
   
 Open a browser and visit your client (turning your browser tab into a client) at:
 	http://localhost:8080
-
-If you have done everything correctly, you should see a maze.
-
-You only need to install your modules once, and subsequent executions of your server can be achieved by:
-	node DungeonServer.js
-  
-If you make changes to DungeonServer.js, you will need to stop your server (ctrl+C) and start it again.
