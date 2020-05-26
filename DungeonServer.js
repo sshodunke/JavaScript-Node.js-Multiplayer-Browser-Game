@@ -7,6 +7,7 @@ const io = require("socket.io")(server);
 const mysql = require("mysql");
 
 // used to setup mysql database
+/*
 var connection = mysql.createConnection({
 	host: 'localhost',
 	user: 'root',
@@ -70,6 +71,8 @@ connection.query(createDungeonTableQuery, function(error, result, fields){
 		console.log("dungeon_time table created successfully.");
 	}
 });
+
+*/
 
 // We will use the dungeongenerator module to generate random dungeons
 // Details at: https://www.npmjs.com/package/dungeongenerator
@@ -343,6 +346,7 @@ io.on("connection", function (socket) {
                 time : end_time
             }
 
+            /*
             // query to insert data into the database
             connection.query("INSERT INTO dungeon_time SET ?", dungeonInsert, function(error, results, fields) {
                 if (error) {
@@ -354,6 +358,7 @@ io.on("connection", function (socket) {
                     console.log("Row inserted successfully.");
                 }
             })
+            */
 
             // reset the timer
             reset();

@@ -11,7 +11,7 @@ You can then run your server with the following command:
 	node DungeonServer.js
   
 Open a browser and visit your client (turning your browser tab into a client) at:
-	http://localhost:8081
+	http://localhost:8080
 
 If you have done everything correctly, you should see a maze.
 
