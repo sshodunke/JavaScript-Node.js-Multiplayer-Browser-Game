@@ -12,7 +12,7 @@
   "dependencies": {
     "dungeongenerator": "^3.0.5",
     "express": "^4.16.2",
-    "socket.io": "^2.0.4",
+    "socket.io": "^2.4.0",
     "mysql": "^2.15.0"
   }
 }
